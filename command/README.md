@@ -1,4 +1,4 @@
-bandit1:ls\n
+bandit1:ls
         cat readme
         
         
