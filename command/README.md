@@ -16,5 +16,11 @@ bandit5: ls
          ls
          cat ./-file07 
          /* έψαξα τα αρχεία όλα με την σειρά*/
+ bandit6: ls
+          cd inhere
+          find --help
+          find -size 1033c
+          cat ./maybehere07/.file2
+           
          
         
