@@ -29,6 +29,12 @@ bandit7: ls
          find  / -user bandit7 -group bandit6 -size 33c
          file /var/lib/dpkg/info/bandit7.password
          cat /var/lib/dpkg/info/bandit7.password
+bandit8: ls
+         file data.txt
+        man grep
+        grep "millionth" data.txt
+         /*αντιγραφή τον κωδικό δίπλα απο την λέξη millionth*/
+        
          
            
          
