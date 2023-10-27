@@ -34,7 +34,19 @@ bandit8: ls
         man grep
         grep "millionth" data.txt
          /*αντιγραφή τον κωδικό δίπλα απο την λέξη millionth*/
-        
+bandit9: ls
+         file data.txt
+         cat data.txt
+         man sort
+         sort --help
+         man gzip
+         man uniq
+         sort data.txt
+         uniq data.txt
+         sort data.txt| uniq data.txt
+         sort data.txt|uniq
+         sort data.txt|uniq -u 
+         /* με την βοήθεια του διαδικτύου βρήκα την χρησιμότητα της εντολής uniq -u*/
          
            
          
