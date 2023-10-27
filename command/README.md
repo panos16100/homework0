@@ -21,6 +21,15 @@ bandit5: ls
           find --help
           find -size 1033c
           cat ./maybehere07/.file2
+bandit7: ls
+         ls -a
+         man grep
+         find user bandit7 group bandit6 size 33c
+         find user bandit7 -group bandit6 -size 33c
+         find  / -user bandit7 -group bandit6 -size 33c
+         file /var/lib/dpkg/info/bandit7.password
+         cat /var/lib/dpkg/info/bandit7.password
+         
            
          
         
