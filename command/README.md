@@ -55,5 +55,10 @@ bandit10: ls
          strings --help
          strings data.txt| grep "="
          
-         
+bandit11: ls
+          file data.txt
+          cat data.txt
+          base64 --help
+          man base64
+        base64 -d data.txt         
         
