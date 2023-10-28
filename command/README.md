@@ -48,6 +48,12 @@ bandit9: ls
          sort data.txt|uniq -u 
          /* με την βοήθεια του διαδικτύου βρήκα την χρησιμότητα της εντολής uniq -u*/
          
-           
+bandit10: ls
+          file data.txt
+         grep "=" data.txt
+         man strings
+         strings --help
+         strings data.txt| grep "="
+         
          
         
