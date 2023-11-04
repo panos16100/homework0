@@ -35,7 +35,7 @@ int main(int argc,char**argv) {
     else if(a<1) {
         //εισαγωγή αριθμού-ορίου απο τον χρήστη που δεν είναι θετικός 
         printf("0\n");
-        return 0;
+        return 1;
     }
     else {
         unsigned long int max=0;
